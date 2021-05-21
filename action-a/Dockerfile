@@ -62,3 +62,5 @@ RUN sudo apt install -y \
 RUN sudo apt install --no-install-recommends -y \
   	libasio-dev \
   	libtinyxml2-dev
+
+ENTRYPOINT ["/entrypoint.sh"]
